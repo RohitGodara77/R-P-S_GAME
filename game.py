@@ -14,7 +14,7 @@ you = input("player's turn! enter 'r' for rock, 'p' for paper,'s' for scissors :
 
 #logic of the game
 
-def game(you,comp):
+def game(comp,you):
 
     if you == comp:
         return None      
